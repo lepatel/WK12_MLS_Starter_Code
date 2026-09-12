@@ -1,0 +1,21 @@
+node_modules/
+
+# environment files (never commit secrets)
+.env
+.env.*
+!.env.example
+
+# build output
+dist/
+build/
+
+# logs
+npm-debug.log*
+*.log
+
+# test/coverage
+coverage/
+
+# OS/editor cruft
+.DS_Store
+Thumbs.db
